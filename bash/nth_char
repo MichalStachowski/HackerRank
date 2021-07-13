@@ -1,0 +1,10 @@
+#!/bin/bash
+# https://www.hackerrank.com/challenges/text-processing-cut-1/problem
+
+while read line
+do
+    # first method
+    echo ${line:2:1}
+    # second method (using cut)
+    # echo $line | cut -c 3
+done
