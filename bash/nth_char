@@ -3,8 +3,8 @@
 
 while read line
 do
-    # first method
-    echo ${line:2:1}
+    # first method - ${string:index:length}
+    echo ${line:2:1} 
     # second method (using cut)
     # echo $line | cut -c 3
 done
